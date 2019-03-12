@@ -12,7 +12,7 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-  contacts["Freddy Mercury"][favorite_icecream_flavors:].delete_if {|flavor| flavor == "strawberry"}
+  contacts["Freddy Mercury"][favorite_icecream_flavors:].delete_if {|flavor| flavor = "strawberry"}
   #your code here
 
 
